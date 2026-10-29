@@ -1,0 +1,5 @@
+name: swamp-github-vikunja
+datastore:
+  type: filesystem
+  path: ~/.swamp/datastores/swamp-github-vikunja
+repoId: f186c421-ec7b-468e-98fd-78e2f380553d

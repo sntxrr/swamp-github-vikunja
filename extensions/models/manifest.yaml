@@ -1,0 +1,24 @@
+manifestVersion: 1
+
+name: "@sntxrr/github-vikunja"
+version: "2026.10.29.1"
+description: "Convert GitHub issues to Vikunja kanban cards — bridge personal issue tracking between GitHub and Vikunja kanban boards with a single import_issue method."
+license: MIT
+repository: "https://github.com/sntxrr/swamp-github-vikunja"
+
+paths:
+  base: manifest
+
+models:
+  - github_vikunja.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.md
+
+labels:
+  - github
+  - vikunja
+  - kanban
+  - issue-tracking
+  - personal-automation

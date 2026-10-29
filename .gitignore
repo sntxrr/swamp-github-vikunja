@@ -1,0 +1,22 @@
+# gitignore for swamp-github-vikunja
+
+# Swamp
+.swamp/
+.swamp.local.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+node_modules/
+deno.lock
+
+# Environment
+.env
+.env.local
+*.env.*.local
